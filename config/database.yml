@@ -1,17 +1,17 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: RailsTest_development
+  database: development
   pool: 5
   timeout: 5000
   username: algoemtrix
-  password:
+  password: satyam
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: RailsTest_test
+  database: test
   pool: 5
   timeout: 5000
   username: algoemtrix
-  password:
+  password: satyam
